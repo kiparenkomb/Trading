@@ -1,0 +1,38 @@
+@import 'bower/bootstrap-sass/assets/stylesheets/bootstrap/variables';
+//== Container sizes
+// $container-lg:      (1240px + $grid-gutter-width);
+$screen-full:        1500px !default;
+$screen-mega-full:   1720px !default;
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+//$font-family-sans-serif: 'Roboto', sans-serif, Helvetica, Arial;
+$font-size-base:          18px;
+
+$font-size-h1:            48px;
+$font-size-h2:            48px;
+$font-size-h3:            30px;
+$font-size-h4:            20px;
+$headings-font-weight:    700;
+
+$link-color:             #0395f5;
+$link-hover-decoration: none;
+
+//== Buttons
+$btn-font-weight:                bold;
+$btn-info-color:                 #fff;
+
+//** Global text color on `<body>`.
+$text-color:            #000;
+
+//** Number of columns in the grid.
+$grid-columns: 12;
+
+//** Placeholder text color
+$input-color-placeholder: #000;
+
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
